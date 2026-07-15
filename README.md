@@ -7,6 +7,18 @@ Dontdoas is a tool that doesn't wanna help you.
 
 This is a heavier version of Dontdoas (may be vibecoded).
 
+## Usage
+
+Dontdoas doesn't actually do anything — it just responds to flags with jokes.
+
+| Flag           | Result                                      |
+|----------------|----------------------------------------------|
+| *(no flag)*    | Prints "Didn't doas."                        |
+| `--help`       | "Didn't provide help."                       |
+| `--sandbox`    | "Didn't sandboxed doas."                     |
+| `--veromikka`  | "sowwy, couldn't dwoas :c"                   |
+| `--kotekun`    | Prints the contents of `kotekun-logo.txt` (an ASCII avatar) — this file must be in the same folder as the executable, or the command will fail silently with a file error. |
+
 ## How to compile
 
 ### Windows
@@ -30,4 +42,4 @@ This creates `MyApp.exe` in `build\debug`.
 
 **3. Finish setup**
 
-Copy `kotekun-logo.txt` into the same folder as `MyApp.exe` (or copy `MyApp.exe` into the main project folder instead).
+Copy `kotekun-logo.txt` into the same folder as `MyApp.exe` (needed only if you plan to use `--kotekun`).
