@@ -1,9 +1,33 @@
 # Dontdoas
-## Dontdoas is a tool that doesent wanna help you
 
-### Original author: [MaloLeNono](github.com/MaloLeNon)
-### This is fattier version of dontdoas (may be vibecoded) and will be maintained by me ([loren](github.com/loren-wastaken))
-=======
-### Original author: [Malo](github.com/MaloLeNon)
-### Maintainer of this fork [Loren](github.com/loren-wastaken)
+Dontdoas is a tool that doesn't wanna help you.
 
+**Original author:** [Malo](https://github.com/MaloLeNon)
+**Maintainer of this fork:** [Loren](https://github.com/loren-wastaken)
+
+This is a heavier version of Dontdoas (may be vibecoded).
+
+## How to compile
+
+### Windows
+
+**1. Install prerequisites**
+- [CMake](https://cmake.org/download/) — download the Windows binary distribution.
+- A C compiler — get [w64devkit](https://github.com/skeeto/w64devkit): go to Releases, download the latest `w64devkit-x64-*.*.*.7z.exe`, and run it to install.
+
+**2. Build**
+
+```powershell
+cd path\to\extracted\zip
+mkdir build
+cd build
+cmake ..
+cd ..
+cmake --build build
+```
+
+This creates `MyApp.exe` in `build\debug`.
+
+**3. Finish setup**
+
+Copy `kotekun-logo.txt` into the same folder as `MyApp.exe` (or copy `MyApp.exe` into the main project folder instead).
